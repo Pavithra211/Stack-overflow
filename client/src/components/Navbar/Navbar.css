@@ -1,0 +1,85 @@
+.main-nav{
+    min-height: 50px;
+    width:100%;
+    margin:0% auto;
+    border-top:solid 3px rgb(235, 157, 13);
+    box-shadow:0px 1px 5px 1px #00000033;
+    position:fixed;
+    z-index:5;
+    top:0%;
+    left:0%;
+    background-color:rgb(248, 248, 253);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+
+}
+
+.navbar{
+    height:100%;
+    min-width:85%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+ 
+.nav-logo{
+    padding:5px 25px;
+}
+
+.nav-item{
+    text-decoration:none;
+    color: black;
+    transition:0.2s;
+    font-weight:300
+}
+
+.nav-btn{
+    border-radius:20px ;
+    padding:10px 20px;
+}
+
+.nav-item:hover{
+    background-color:rgb(211, 207, 207);
+    
+}
+
+.navbar form{
+    flex-grow:1;
+    padding: 0 12px;
+
+    position:relative;
+
+
+}
+
+.navbar form input{
+    min-width: 90%;
+    margin:0px;
+    padding:8px 10px 8px 32px;
+    font-size: 13px;
+    border: 2px solid rgb(155, 154, 154);
+    border-radius:3px;
+    
+}
+
+.search-icon{
+    width:18px;
+    position: absolute;
+    left:25px;
+    top:8px;
+   
+}
+
+.nav-links{
+  
+   padding:8px 15px;
+   border:1px solid blue;
+   border-radius: 5px;
+   background-color: rgb(198, 230, 247);
+   margin:0px 10px;
+   
+}

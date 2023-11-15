@@ -1,0 +1,90 @@
+.auth-section{
+   
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:10%;
+    margin-right:23%;
+    
+    
+}
+
+.aboutauth{
+    line-height: 30px;
+    margin-left:20%;
+}
+
+span{
+    color:rgb(0, 140, 255);
+    font-size:14px;
+}
+
+#about-collaborate{
+    color:rgb(139, 139, 139);
+}
+
+
+
+
+.auth-container input{
+    padding:7px 10px;
+   font-size: 20px;
+   border-radius: 5px;
+   border:1px solid gray
+}
+
+.authform{
+    background-color:rgb(216, 216, 216);
+    padding:7px 30px;
+    border:1px solid rgb(223, 222, 222);
+    border-radius:5px;
+    padding-bottom:25px;
+    line-height: 5px;
+
+    
+}
+
+.auth-account{
+    text-align: center;
+}
+
+.auth-btn{
+    background-color: rgb(57, 184, 235);
+    border-radius:5px;
+    padding:10px 110px;
+    color:white;
+    align-items: center;
+    border-style: none;
+    cursor:pointer;
+    
+
+}
+
+#auth-password{
+    font-size:13px;
+    line-height: 17px;
+    color:rgb(92, 84, 84)
+}
+
+.handle-swith-btn{
+    border-style: none;
+    background-color: white;
+    color:rgb(74, 55, 247);
+    cursor:pointer;
+}
+
+.img-logo{
+    margin-left:45%;
+}
+
+.auth-forgot{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.auth-forgot p{
+    color:rgb(74, 55, 247);
+    
+   
+
+}
